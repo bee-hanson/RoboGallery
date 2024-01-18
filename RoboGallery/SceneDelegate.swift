@@ -16,7 +16,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = UINavigationController(rootViewController: RobotsViewController(viewmodel: RobotsViewModel(repo: RobotDataStore(), service: RobotImageService())))
+        let viewModel = RobotsViewModel(repo: RobotDataStore(), service: RobotImageService())
+        let viewController = RobotsViewController(viewmodel: viewModel)
+        window?.rootViewController = UINavigationController(rootViewController: viewController)
         window?.makeKeyAndVisible()
     }
 
