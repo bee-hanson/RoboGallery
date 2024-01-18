@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		142EA4C92B520BA400EC4C5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EA4C82B520BA400EC4C5D /* AppDelegate.swift */; };
+		142EA4CB2B520BA400EC4C5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EA4CA2B520BA400EC4C5D /* SceneDelegate.swift */; };
+		142EA4CD2B520BA400EC4C5D /* RobotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EA4CC2B520BA400EC4C5D /* RobotsViewController.swift */; };
+		142EA4D22B520BA500EC4C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142EA4D12B520BA500EC4C5D /* Assets.xcassets */; };
+		142EA4D52B520BA500EC4C5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142EA4D32B520BA500EC4C5D /* LaunchScreen.storyboard */; };
+		142EA4E02B520BA500EC4C5D /* RobotsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EA4DF2B520BA500EC4C5D /* RobotsViewModelTests.swift */; };
+		142EA4EA2B520BA500EC4C5D /* RoboGalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EA4E92B520BA500EC4C5D /* RoboGalleryUITests.swift */; };
+		142EA4EC2B520BA500EC4C5D /* RoboGalleryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EA4EB2B520BA500EC4C5D /* RoboGalleryUITestsLaunchTests.swift */; };
+		142EA4F92B52C77B00EC4C5D /* RobotImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EA4F82B52C77B00EC4C5D /* RobotImageService.swift */; };
+		142EA4FE2B52E04A00EC4C5D /* RobotsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EA4FD2B52E04A00EC4C5D /* RobotsViewModel.swift */; };
+		142EA5022B52E0A200EC4C5D /* RobotDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EA5012B52E0A200EC4C5D /* RobotDetailViewController.swift */; };
+		142EA5042B52E1C700EC4C5D /* RobotDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EA5032B52E1C700EC4C5D /* RobotDetailViewModel.swift */; };
+		142EA5072B52E50D00EC4C5D /* RobotDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EA5062B52E50D00EC4C5D /* RobotDataStore.swift */; };
+		142EA5092B53190500EC4C5D /* RobotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EA5082B53190500EC4C5D /* RobotCollectionViewCell.swift */; };
+		142EA50D2B5893AD00EC4C5D /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EA50C2B5893AD00EC4C5D /* Robot.swift */; };
+		142EA5172B599FFC00EC4C5D /* MockRobotImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EA5162B599FFC00EC4C5D /* MockRobotImageService.swift */; };
+		142EA5192B59A17F00EC4C5D /* MockRobotDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EA5182B59A17F00EC4C5D /* MockRobotDataStore.swift */; };
+		142EA51B2B59B73500EC4C5D /* RobotDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EA51A2B59B73500EC4C5D /* RobotDetailViewModelTests.swift */; };
+		142EA51D2B59B80C00EC4C5D /* RobotModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142EA51C2B59B80C00EC4C5D /* RobotModelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		142EA4DC2B520BA500EC4C5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 142EA4BD2B520BA400EC4C5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 142EA4C42B520BA400EC4C5D;
+			remoteInfo = RoboGallery;
+		};
+		142EA4E62B520BA500EC4C5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 142EA4BD2B520BA400EC4C5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 142EA4C42B520BA400EC4C5D;
+			remoteInfo = RoboGallery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		142EA4C52B520BA400EC4C5D /* RoboGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoboGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		142EA4C82B520BA400EC4C5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		142EA4CA2B520BA400EC4C5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		142EA4CC2B520BA400EC4C5D /* RobotsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotsViewController.swift; sourceTree = "<group>"; };
+		142EA4D12B520BA500EC4C5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		142EA4D42B520BA500EC4C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		142EA4D62B520BA500EC4C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142EA4DB2B520BA500EC4C5D /* RoboGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoboGalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		142EA4DF2B520BA500EC4C5D /* RobotsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotsViewModelTests.swift; sourceTree = "<group>"; };
+		142EA4E52B520BA500EC4C5D /* RoboGalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoboGalleryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		142EA4E92B520BA500EC4C5D /* RoboGalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboGalleryUITests.swift; sourceTree = "<group>"; };
+		142EA4EB2B520BA500EC4C5D /* RoboGalleryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboGalleryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		142EA4F82B52C77B00EC4C5D /* RobotImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotImageService.swift; sourceTree = "<group>"; };
+		142EA4FD2B52E04A00EC4C5D /* RobotsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotsViewModel.swift; sourceTree = "<group>"; };
+		142EA5012B52E0A200EC4C5D /* RobotDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotDetailViewController.swift; sourceTree = "<group>"; };
+		142EA5032B52E1C700EC4C5D /* RobotDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotDetailViewModel.swift; sourceTree = "<group>"; };
+		142EA5062B52E50D00EC4C5D /* RobotDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotDataStore.swift; sourceTree = "<group>"; };
+		142EA5082B53190500EC4C5D /* RobotCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotCollectionViewCell.swift; sourceTree = "<group>"; };
+		142EA50C2B5893AD00EC4C5D /* Robot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
+		142EA5162B599FFC00EC4C5D /* MockRobotImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRobotImageService.swift; sourceTree = "<group>"; };
+		142EA5182B59A17F00EC4C5D /* MockRobotDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRobotDataStore.swift; sourceTree = "<group>"; };
+		142EA51A2B59B73500EC4C5D /* RobotDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotDetailViewModelTests.swift; sourceTree = "<group>"; };
+		142EA51C2B59B80C00EC4C5D /* RobotModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotModelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		142EA4C22B520BA400EC4C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142EA4D82B520BA500EC4C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142EA4E22B520BA500EC4C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		142EA4BC2B520BA400EC4C5D = {
+			isa = PBXGroup;
+			children = (
+				142EA4C72B520BA400EC4C5D /* RoboGallery */,
+				142EA4DE2B520BA500EC4C5D /* RoboGalleryTests */,
+				142EA4E82B520BA500EC4C5D /* RoboGalleryUITests */,
+				142EA4C62B520BA400EC4C5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		142EA4C62B520BA400EC4C5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				142EA4C52B520BA400EC4C5D /* RoboGallery.app */,
+				142EA4DB2B520BA500EC4C5D /* RoboGalleryTests.xctest */,
+				142EA4E52B520BA500EC4C5D /* RoboGalleryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		142EA4C72B520BA400EC4C5D /* RoboGallery */ = {
+			isa = PBXGroup;
+			children = (
+				142EA5112B58BF3800EC4C5D /* DataStore */,
+				142EA50B2B5893A200EC4C5D /* Models */,
+				142EA5102B58BF3100EC4C5D /* Services */,
+				142EA50A2B58939D00EC4C5D /* Views */,
+				142EA50E2B58941C00EC4C5D /* ViewControllers */,
+				142EA50F2B58942B00EC4C5D /* ViewModels */,
+				142EA4C82B520BA400EC4C5D /* AppDelegate.swift */,
+				142EA4CA2B520BA400EC4C5D /* SceneDelegate.swift */,
+				142EA4D12B520BA500EC4C5D /* Assets.xcassets */,
+				142EA4D32B520BA500EC4C5D /* LaunchScreen.storyboard */,
+				142EA4D62B520BA500EC4C5D /* Info.plist */,
+			);
+			path = RoboGallery;
+			sourceTree = "<group>";
+		};
+		142EA4DE2B520BA500EC4C5D /* RoboGalleryTests */ = {
+			isa = PBXGroup;
+			children = (
+				142EA5152B599FED00EC4C5D /* Mocks */,
+				142EA4DF2B520BA500EC4C5D /* RobotsViewModelTests.swift */,
+				142EA51A2B59B73500EC4C5D /* RobotDetailViewModelTests.swift */,
+				142EA51C2B59B80C00EC4C5D /* RobotModelTests.swift */,
+			);
+			path = RoboGalleryTests;
+			sourceTree = "<group>";
+		};
+		142EA4E82B520BA500EC4C5D /* RoboGalleryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				142EA4E92B520BA500EC4C5D /* RoboGalleryUITests.swift */,
+				142EA4EB2B520BA500EC4C5D /* RoboGalleryUITestsLaunchTests.swift */,
+			);
+			path = RoboGalleryUITests;
+			sourceTree = "<group>";
+		};
+		142EA50A2B58939D00EC4C5D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				142EA5082B53190500EC4C5D /* RobotCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		142EA50B2B5893A200EC4C5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				142EA50C2B5893AD00EC4C5D /* Robot.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		142EA50E2B58941C00EC4C5D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				142EA4CC2B520BA400EC4C5D /* RobotsViewController.swift */,
+				142EA5012B52E0A200EC4C5D /* RobotDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		142EA50F2B58942B00EC4C5D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				142EA4FD2B52E04A00EC4C5D /* RobotsViewModel.swift */,
+				142EA5032B52E1C700EC4C5D /* RobotDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		142EA5102B58BF3100EC4C5D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				142EA4F82B52C77B00EC4C5D /* RobotImageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		142EA5112B58BF3800EC4C5D /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				142EA5062B52E50D00EC4C5D /* RobotDataStore.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		142EA5152B599FED00EC4C5D /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				142EA5162B599FFC00EC4C5D /* MockRobotImageService.swift */,
+				142EA5182B59A17F00EC4C5D /* MockRobotDataStore.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		142EA4C42B520BA400EC4C5D /* RoboGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142EA4EF2B520BA500EC4C5D /* Build configuration list for PBXNativeTarget "RoboGallery" */;
+			buildPhases = (
+				142EA4C12B520BA400EC4C5D /* Sources */,
+				142EA4C22B520BA400EC4C5D /* Frameworks */,
+				142EA4C32B520BA400EC4C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoboGallery;
+			productName = RoboGallery;
+			productReference = 142EA4C52B520BA400EC4C5D /* RoboGallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		142EA4DA2B520BA500EC4C5D /* RoboGalleryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142EA4F22B520BA500EC4C5D /* Build configuration list for PBXNativeTarget "RoboGalleryTests" */;
+			buildPhases = (
+				142EA4D72B520BA500EC4C5D /* Sources */,
+				142EA4D82B520BA500EC4C5D /* Frameworks */,
+				142EA4D92B520BA500EC4C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				142EA4DD2B520BA500EC4C5D /* PBXTargetDependency */,
+			);
+			name = RoboGalleryTests;
+			productName = RoboGalleryTests;
+			productReference = 142EA4DB2B520BA500EC4C5D /* RoboGalleryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		142EA4E42B520BA500EC4C5D /* RoboGalleryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142EA4F52B520BA500EC4C5D /* Build configuration list for PBXNativeTarget "RoboGalleryUITests" */;
+			buildPhases = (
+				142EA4E12B520BA500EC4C5D /* Sources */,
+				142EA4E22B520BA500EC4C5D /* Frameworks */,
+				142EA4E32B520BA500EC4C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				142EA4E72B520BA500EC4C5D /* PBXTargetDependency */,
+			);
+			name = RoboGalleryUITests;
+			productName = RoboGalleryUITests;
+			productReference = 142EA4E52B520BA500EC4C5D /* RoboGalleryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		142EA4BD2B520BA400EC4C5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					142EA4C42B520BA400EC4C5D = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					142EA4DA2B520BA500EC4C5D = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 142EA4C42B520BA400EC4C5D;
+					};
+					142EA4E42B520BA500EC4C5D = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 142EA4C42B520BA400EC4C5D;
+					};
+				};
+			};
+			buildConfigurationList = 142EA4C02B520BA400EC4C5D /* Build configuration list for PBXProject "RoboGallery" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 142EA4BC2B520BA400EC4C5D;
+			productRefGroup = 142EA4C62B520BA400EC4C5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				142EA4C42B520BA400EC4C5D /* RoboGallery */,
+				142EA4DA2B520BA500EC4C5D /* RoboGalleryTests */,
+				142EA4E42B520BA500EC4C5D /* RoboGalleryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		142EA4C32B520BA400EC4C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142EA4D52B520BA500EC4C5D /* LaunchScreen.storyboard in Resources */,
+				142EA4D22B520BA500EC4C5D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142EA4D92B520BA500EC4C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142EA4E32B520BA500EC4C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		142EA4C12B520BA400EC4C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142EA50D2B5893AD00EC4C5D /* Robot.swift in Sources */,
+				142EA4F92B52C77B00EC4C5D /* RobotImageService.swift in Sources */,
+				142EA5042B52E1C700EC4C5D /* RobotDetailViewModel.swift in Sources */,
+				142EA4CD2B520BA400EC4C5D /* RobotsViewController.swift in Sources */,
+				142EA4C92B520BA400EC4C5D /* AppDelegate.swift in Sources */,
+				142EA4CB2B520BA400EC4C5D /* SceneDelegate.swift in Sources */,
+				142EA5022B52E0A200EC4C5D /* RobotDetailViewController.swift in Sources */,
+				142EA5072B52E50D00EC4C5D /* RobotDataStore.swift in Sources */,
+				142EA4FE2B52E04A00EC4C5D /* RobotsViewModel.swift in Sources */,
+				142EA5092B53190500EC4C5D /* RobotCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142EA4D72B520BA500EC4C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142EA5172B599FFC00EC4C5D /* MockRobotImageService.swift in Sources */,
+				142EA5192B59A17F00EC4C5D /* MockRobotDataStore.swift in Sources */,
+				142EA51B2B59B73500EC4C5D /* RobotDetailViewModelTests.swift in Sources */,
+				142EA4E02B520BA500EC4C5D /* RobotsViewModelTests.swift in Sources */,
+				142EA51D2B59B80C00EC4C5D /* RobotModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142EA4E12B520BA500EC4C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142EA4EA2B520BA500EC4C5D /* RoboGalleryUITests.swift in Sources */,
+				142EA4EC2B520BA500EC4C5D /* RoboGalleryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		142EA4DD2B520BA500EC4C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 142EA4C42B520BA400EC4C5D /* RoboGallery */;
+			targetProxy = 142EA4DC2B520BA500EC4C5D /* PBXContainerItemProxy */;
+		};
+		142EA4E72B520BA500EC4C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 142EA4C42B520BA400EC4C5D /* RoboGallery */;
+			targetProxy = 142EA4E62B520BA500EC4C5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		142EA4D32B520BA500EC4C5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				142EA4D42B520BA500EC4C5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		142EA4ED2B520BA500EC4C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		142EA4EE2B520BA500EC4C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		142EA4F02B520BA500EC4C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DY9B5J86TM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoboGallery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.melissahanson.RoboGallery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		142EA4F12B520BA500EC4C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DY9B5J86TM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoboGallery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.melissahanson.RoboGallery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		142EA4F32B520BA500EC4C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DY9B5J86TM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.melissahanson.RoboGalleryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoboGallery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoboGallery";
+			};
+			name = Debug;
+		};
+		142EA4F42B520BA500EC4C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DY9B5J86TM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.melissahanson.RoboGalleryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoboGallery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoboGallery";
+			};
+			name = Release;
+		};
+		142EA4F62B520BA500EC4C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DY9B5J86TM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.melissahanson.RoboGalleryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoboGallery;
+			};
+			name = Debug;
+		};
+		142EA4F72B520BA500EC4C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DY9B5J86TM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.melissahanson.RoboGalleryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoboGallery;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		142EA4C02B520BA400EC4C5D /* Build configuration list for PBXProject "RoboGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142EA4ED2B520BA500EC4C5D /* Debug */,
+				142EA4EE2B520BA500EC4C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		142EA4EF2B520BA500EC4C5D /* Build configuration list for PBXNativeTarget "RoboGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142EA4F02B520BA500EC4C5D /* Debug */,
+				142EA4F12B520BA500EC4C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		142EA4F22B520BA500EC4C5D /* Build configuration list for PBXNativeTarget "RoboGalleryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142EA4F32B520BA500EC4C5D /* Debug */,
+				142EA4F42B520BA500EC4C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		142EA4F52B520BA500EC4C5D /* Build configuration list for PBXNativeTarget "RoboGalleryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142EA4F62B520BA500EC4C5D /* Debug */,
+				142EA4F72B520BA500EC4C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 142EA4BD2B520BA400EC4C5D /* Project object */;
+}
